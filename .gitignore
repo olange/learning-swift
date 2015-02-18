@@ -1,5 +1,7 @@
+# Sublime Text
+*.sublime-*
+
 # Xcode
-#
 build/
 *.pbxuser
 !default.pbxuser

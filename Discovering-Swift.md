@@ -2,19 +2,16 @@
 
 * [Apple Developer › Swift](https://developer.apple.com/swift/) _Overview_
 
-# Books
+## Books
 
-* [The Swift Programming Language](https://itunes.apple.com/us/book-series/swift-programming-series/id888896989?mt=11) iBook
+* [The Swift Programming Language](https://itunes.apple.com/us/book-series/swift-programming-series/id888896989?mt=11) free iBook
 
-## Tutorials
+## Courses & tutorials
 
-* [iOS Developer Library › The Swift Programming Language › A Swift Tour](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-ID1)
-
-## Courses
-
-* [Stanford University: Developing iOS 8 Apps with Swift](https://itunes.com/StanfordSwift) _free_
-* [Plymouth University: iOS Development in Swift](https://itunes.com/PlymouthSwift) _free_
-* [Udemy › Rob Percival › The Complete iOS8 and Swift Course: Learn by Building 15 Real World Apps](https://www.udemy.com/complete-ios-developer-course/?hb=sweet&utm_source=email_adhoc&utm_campaign=2015-valentines&utm_medium=mystery&utm_content=2015-02-16-val-surprise-sweet-3day) USD $199.– _suggest by tz_
+* [iOS Developer Library › The Swift Programming Language › A Swift Tour](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-ID1) _tutorial_
+* [Stanford University: Developing iOS 8 Apps with Swift](https://itunes.com/StanfordSwift) free _course_
+* [Plymouth University: iOS Development in Swift](https://itunes.com/PlymouthSwift) free _course_
+* [Udemy › Rob Percival › The Complete iOS8 and Swift Course: Learn by Building 15 Real World Apps](https://www.udemy.com/complete-ios-developer-course/?hb=sweet&utm_source=email_adhoc&utm_campaign=2015-valentines&utm_medium=mystery&utm_content=2015-02-16-val-surprise-sweet-3day) USD $199.– _6 week course, suggested by tz_
 
 ## Guides and reference
 

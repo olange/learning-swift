@@ -12,6 +12,7 @@
 * [Stanford University: Developing iOS 8 Apps with Swift](https://itunes.com/StanfordSwift) free _course_
 * [Plymouth University: iOS Development in Swift](https://itunes.com/PlymouthSwift) free _course_
 * [Udemy › Rob Percival › The Complete iOS8 and Swift Course: Learn by Building 15 Real World Apps](https://www.udemy.com/complete-ios-developer-course/?hb=sweet&utm_source=email_adhoc&utm_campaign=2015-valentines&utm_medium=mystery&utm_content=2015-02-16-val-surprise-sweet-3day) USD $199.– _6 week course, suggested by tz_
+* [Udemy › Rob Percival › The Complete Apple Watch Developer Course - Build 14 Apps](https://www.udemy.com/complete-apple-watch-developer-course/) USD $199.– _6 week course_
 
 ## Guides and reference
 

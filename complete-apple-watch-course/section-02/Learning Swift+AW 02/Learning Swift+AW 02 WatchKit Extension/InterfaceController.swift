@@ -12,11 +12,23 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet var swFollow: WKInterfaceSwitch!
+
+    @IBAction func btnWorkingPressed() {
+        swFollow.setTitle( "Working")
+    }
+    
+    @IBAction func btnFeelGoodPressed() {
+        swFollow.setTitle( "Feeling good")
+    }
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
         // Configure interface objects here.
         NSLog( "%@ init", self)
+        println("App is working")
+        swFollow.setTitle("Follow")
     }
 
     override func willActivate() {

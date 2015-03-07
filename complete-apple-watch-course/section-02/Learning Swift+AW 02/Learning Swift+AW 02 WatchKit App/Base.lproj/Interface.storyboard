@@ -10,13 +10,15 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Learning_Swift_AW_02_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <button width="1" alignment="left" title="Roll &amp; dice" id="Uqz-PR-tm1">
+                        <button width="1" alignment="left" title="Roll dice" id="Uqz-PR-tm1">
                             <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                             <connections>
                                 <action selector="btnRollPressed" destination="AgC-eL-Hgc" id="a5h-PF-5VL"/>
                             </connections>
                         </button>
-                        <label width="1" height="50" alignment="left" textAlignment="left" id="N9S-hx-SMT"/>
+                        <label width="1" height="108" alignment="left" text="4" textAlignment="center" id="N9S-hx-SMT">
+                            <fontDescription key="font" type="system" weight="semibold" pointSize="64"/>
+                        </label>
                     </items>
                     <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>

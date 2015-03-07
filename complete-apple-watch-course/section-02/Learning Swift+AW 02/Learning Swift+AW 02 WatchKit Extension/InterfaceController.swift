@@ -15,7 +15,8 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet var txtResult: WKInterfaceLabel!
     
     @IBAction func btnRollPressed() {
-        txtResult.setText("Rolled dice")
+        var randomNum = 1+arc4random_uniform(6)
+        txtResult.setText( String( randomNum))
     }
     
     override func awakeWithContext(context: AnyObject?) {

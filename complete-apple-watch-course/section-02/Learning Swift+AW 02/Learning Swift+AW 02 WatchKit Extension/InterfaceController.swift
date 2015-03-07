@@ -12,14 +12,10 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
-    @IBOutlet var swFollow: WKInterfaceSwitch!
-
-    @IBAction func btnWorkingPressed() {
-        swFollow.setTitle( "Working")
-    }
+    @IBOutlet var txtResult: WKInterfaceLabel!
     
-    @IBAction func btnFeelGoodPressed() {
-        swFollow.setTitle( "Feeling good")
+    @IBAction func btnRollPressed() {
+        txtResult.setText("Rolled dice")
     }
     
     override func awakeWithContext(context: AnyObject?) {
@@ -27,8 +23,7 @@ class InterfaceController: WKInterfaceController {
         
         // Configure interface objects here.
         NSLog( "%@ init", self)
-        println("App is working")
-        swFollow.setTitle("Follow")
+        txtResult.setText("")
     }
 
     override func willActivate() {

@@ -10,25 +10,17 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Learning_Swift_AW_02_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <button width="1" alignment="left" title="Working" id="Uqz-PR-tm1">
+                        <button width="1" alignment="left" title="Roll &amp; dice" id="Uqz-PR-tm1">
                             <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                             <connections>
-                                <action selector="btnWorkingPressed" destination="AgC-eL-Hgc" id="Dci-Kn-ydT"/>
+                                <action selector="btnRollPressed" destination="AgC-eL-Hgc" id="a5h-PF-5VL"/>
                             </connections>
                         </button>
-                        <button width="1" alignment="left" title="Feeling good" id="HGG-L7-vRV">
-                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                            <fontDescription key="font" type="system" pointSize="15"/>
-                            <connections>
-                                <action selector="btnFeelGoodPressed" destination="AgC-eL-Hgc" id="xQH-gI-rBL"/>
-                            </connections>
-                        </button>
-                        <slider width="1" alignment="left" value="50" maximum="100" steps="5" id="EiK-1E-MNo"/>
-                        <switch width="1" alignment="left" value="YES" title="Switch" id="7pC-Ns-GwP"/>
+                        <label width="1" height="50" alignment="left" textAlignment="left" id="N9S-hx-SMT"/>
                     </items>
                     <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
-                        <outlet property="swFollow" destination="7pC-Ns-GwP" id="8G8-3b-VhC"/>
+                        <outlet property="txtResult" destination="N9S-hx-SMT" id="9Bv-rf-45H"/>
                     </connections>
                 </controller>
             </objects>

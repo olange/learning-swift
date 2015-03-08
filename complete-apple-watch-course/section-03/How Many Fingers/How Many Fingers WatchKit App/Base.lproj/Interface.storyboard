@@ -8,7 +8,27 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="How_Many_Fingers_WatchKit_App" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="How_Many_Fingers_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <slider width="1" alignment="left" value="0.59999999999999998" steps="5" id="AWH-cT-fpZ">
+                            <connections>
+                                <action selector="guessUpdated:" destination="AgC-eL-Hgc" id="ElF-P2-a9E"/>
+                            </connections>
+                        </slider>
+                        <label width="1" alignment="left" text="Guess!" textAlignment="center" id="HyM-Wh-QCe"/>
+                        <button width="1" alignment="left" title="Guess" id="96J-A8-y8V">
+                            <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="guessPressed" destination="AgC-eL-Hgc" id="nMe-sb-pMA"/>
+                            </connections>
+                        </button>
+                        <label width="1" alignment="left" textAlignment="center" id="Kf7-CJ-M43"/>
+                    </items>
+                    <connections>
+                        <outlet property="guessLabel" destination="HyM-Wh-QCe" id="CTG-r8-vTU"/>
+                        <outlet property="resultLabel" destination="Kf7-CJ-M43" id="1Uu-gL-UFC"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="319" y="294"/>
         </scene>

@@ -12,7 +12,7 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
-    var guessNum:Int = -1
+    var guessNum:Int = 3
     
     @IBOutlet var guessLabel: WKInterfaceLabel!
     

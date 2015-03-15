@@ -9,9 +9,10 @@ for var i=0; i < 10; i++ {
 }
 
 var arr = ["hello", "playground", "beautiful", "weather", "today"]
-var dict = [ "dusk": "07:51", "dawn": "19:23"]
+var dict = [ "sunrise": "07:48", "sunset": "19:28",
+             "moonrise": "05:37", "moonset": "12:28"]
 
-dict["dawn"]
+dict["sunrise"]
 
 for k in arr {
     println( k)
